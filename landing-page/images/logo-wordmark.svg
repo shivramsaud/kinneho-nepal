@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 64" width="360" height="64" role="img" aria-label="KinneHo Nepal">
+  <defs>
+    <linearGradient id="beam2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00b4ff"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#00b4ff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#00b4ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- icon -->
+  <g transform="translate(0,0)">
+    <rect x="2" y="2" width="60" height="60" rx="16" fill="#0a0e1a" stroke="url(#beam2)" stroke-width="2.5"/>
+    <ellipse cx="32" cy="50" rx="20" ry="5" fill="url(#glow2)"/>
+    <circle cx="32" cy="26" r="11" fill="#0a0e1a" stroke="url(#beam2)" stroke-width="2.5"/>
+    <circle cx="32" cy="26" r="4.5" fill="#eaffff"/>
+    <path d="M22 48 L32 36 L42 48 L39 48 L39 53 L25 53 L25 48 Z" fill="url(#beam2)"/>
+    <path d="M32 28 L22 48 L42 48 Z" fill="url(#beam2)" opacity="0.2"/>
+  </g>
+
+  <!-- wordmark -->
+  <g font-family="'Segoe UI', Arial, sans-serif" font-weight="700">
+    <text x="78" y="30" font-size="22" fill="#ffffff">KinneHo</text>
+    <text x="78" y="30" font-size="22" fill="#00b4ff" opacity="0">?</text>
+    <text x="172" y="30" font-size="22" fill="#7c3aed">?</text>
+    <text x="190" y="30" font-size="13" font-weight="600" fill="#9fb3c8" letter-spacing="2">NEPAL</text>
+    <text x="78" y="48" font-size="10.5" font-weight="500" fill="#6b7c93" letter-spacing="1.5">MOTORCYCLE LED PROJECTOR LIGHTS</text>
+  </g>
+</svg>

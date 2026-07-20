@@ -1,0 +1,11 @@
+# Ignore OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Ignore the leftover rename script (not part of the site)
+landing-page/update.py
+
+# Ignore source whatsapp dumps
+whatsapp/
