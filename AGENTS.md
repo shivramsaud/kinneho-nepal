@@ -16,7 +16,7 @@ A free single-page landing site (this repo) is used as the **Meta app website UR
 
 ## Business Facts (source of truth)
 - **Brand / page name:** KinneHo? Nepal
-- **FB Page ID:** `61592100261714`
+- **FB Page ID:** `1274246045766232` (API numeric ID; also known as `61592100261714`)
 - **FB Page URL:** https://www.facebook.com/profile.php?id=61592100261714
 - **FB Messenger URL:** https://www.facebook.com/messages/t/61592100261714
 - **WhatsApp:** +9779841852585 → https://wa.me/9779841852585
@@ -73,8 +73,8 @@ Legacy/unused assets kept in repo but not referenced by the UI:
 
 ## Facebook / Meta Setup Status
 - Business portfolio created; Facebook Login product added to the app.
-- **Long-lived Page access token:** NOT yet fetched (pending real token).
-- App website URL: using the GitHub Pages URL above (placeholder resolved).
+- ✅ **Long-lived Page access token:** Fetched and stored in `.env` (60-day expiry).
+- ✅ App website URL: `https://shivramsaud.github.io/kinneho-nepal/` (confirmed).
 - Posting strategy (2025–2026 algorithm): Reels < 90s perform best;
   post in Nepal off-peak hours for reach.
 
@@ -104,7 +104,6 @@ git push origin master
 ```
 
 ## Open Items / Blockers
-- Fetch & store a real long-lived Facebook Page token.
 - Confirm final logo (SVG vs user-provided image).
 - Build the LangGraph automation agents.
 - Optionally add a custom domain to GitHub Pages.

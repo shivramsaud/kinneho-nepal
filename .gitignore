@@ -9,3 +9,5 @@ landing-page/update.py
 
 # Ignore source whatsapp dumps
 whatsapp/
+
+.env
